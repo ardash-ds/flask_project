@@ -1,0 +1,12 @@
+.idea/
+.venv/
+venv/
+env/
+**/__pycache__/
+**/versions/*
+db.sqlite3
+.env
+# *.db
+# alembic/
+.idea/
+

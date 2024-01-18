@@ -1,0 +1,5 @@
+alembic stamp head --purge
+alembic revision --autogenerate -m "migrations"
+alembic upgrade head
+
+flask --app app.main run
